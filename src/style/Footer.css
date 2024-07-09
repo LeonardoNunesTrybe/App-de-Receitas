@@ -1,0 +1,23 @@
+.footer {
+  background: #41197f;
+  bottom: 0;
+  display: flex;
+  flex-shrink: 0;
+  height: 52px;
+  position: fixed;
+  width: 360px;
+}
+
+.drink-icon {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  width: 180px;
+}
+
+.meal-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  width: 160px;
+}

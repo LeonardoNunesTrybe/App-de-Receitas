@@ -1,0 +1,34 @@
+.recipes-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+  width: 350px;
+}
+
+.recipe-card {
+  background: white;
+  border: 0.518px solid #b1b1b1;
+  border-radius: 5px;
+  height: 166.118px;
+  margin: 5px;
+  width: 163.204px;
+}
+
+.recipe-img {
+  border-radius: 5px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  height: 134.854px;
+  width: 161px;
+}
+
+.recipe-name {
+  color: #1a1b1c;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+  width: 142.803px;
+}

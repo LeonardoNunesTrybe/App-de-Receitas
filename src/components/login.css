@@ -1,0 +1,46 @@
+body {
+  background: white;
+  flex-shrink: 0;
+  height: 422px;
+  width: 360px;
+}
+
+.login-text {
+  color: #41197f;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 3.3px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  width: 182px;
+}
+
+.login-input {
+  border: 0.5px solid #41197f;
+  border-radius: 5px;
+  flex-shrink: 0;
+  height: 40px;
+  margin: 5px;
+  padding: 15px;
+  width: 276px;
+}
+
+.login-btn {
+  background: #fcc436;
+  border-radius: 5px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 276px;
+}
