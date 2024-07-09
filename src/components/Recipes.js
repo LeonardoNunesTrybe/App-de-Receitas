@@ -10,7 +10,7 @@ import {
 } from '../services/RecipesAPI';
 import RecipesContext from '../context/RecipesContext';
 import RecipesDetails from './RecipeDetails';
-import './recipes.css';
+import '../style/Recipes.css';
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);

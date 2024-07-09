@@ -14,7 +14,7 @@ body {
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
-  width: 182px;
+  width: 100vw;
 }
 
 .login-input {

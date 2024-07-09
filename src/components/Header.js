@@ -5,7 +5,7 @@ import profileIcon from '../images/profileIcon.svg';
 import searchIcon from '../images/searchIcon.svg';
 import SearchBar from './SearchBar';
 import RecipesContext from '../context/RecipesContext';
-import './header.css';
+import '../style/Header.css';
 
 export default function Header({ haveBar, title }) {
   const [searchBar, setSearchBar] = useState(false);
@@ -22,7 +22,7 @@ export default function Header({ haveBar, title }) {
     <>
 
       <div className="header-box">
-        <p className="header-title">recipes app</p>
+        <p className="header-title">App da Bianca</p>
         <Link to="/profile">
           <img
             className="header-icon"

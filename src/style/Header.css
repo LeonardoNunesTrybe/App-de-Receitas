@@ -4,7 +4,7 @@
   flex-shrink: 0;
   height: 52px;
   justify-content: center;
-  width: 360px;
+  width: 100vw;
 }
 
 .header-title {
@@ -13,7 +13,7 @@
   font-weight: 700;
   height: 16.972px;
   text-transform: uppercase;
-  width: 109.131px;
+  width: 200px;
 
 }
 
@@ -30,12 +30,11 @@
   font-weight: 900;
   letter-spacing: 2.1px;
   line-height: normal;
-  margin-bottom: 180px;
-  margin-left: 100px;
+  margin-bottom: 40px;
   margin-top: 40px;
   text-align: center;
   text-transform: uppercase;
-  width: 147px;
+  width: 100vw;
 }
 
 .searchbar-box {

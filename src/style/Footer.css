@@ -5,7 +5,7 @@
   flex-shrink: 0;
   height: 52px;
   position: fixed;
-  width: 360px;
+  width: 100vw;
 }
 
 .drink-icon {

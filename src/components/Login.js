@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
-import './login.css';
+import '../style/Login.css';
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -12,7 +12,7 @@ function Login() {
 
     const user = { email }; // cirando a constante user para salva no formato q a tribe pede do email { email: email-da-pessoa }
     localStorage.setItem('user', JSON.stringify(user)); // transformado em string para usar no localStorage , já que user é um objeto
-    history.push('/meals');
+    history.push('/profile');
   };
 
   const testEmail = () => {

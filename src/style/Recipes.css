@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 5px;
-  width: 350px;
+  width: 100vw;
 }
 
 .recipe-card {

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useHistory, useLocation } from 'react-router-dom';
 import RecipesContext from '../context/RecipesContext';
-import './searchbar.css';
+import '../style/Searchbar.css';
 
 function SearchBar() {
   const { searchText, setRecipes,
